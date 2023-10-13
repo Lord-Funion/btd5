@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    width: 100%;
+}
+
+iframe.game {
+    height: 656px;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+#adobe-help {
+    display: none;
+}
+
+#adobe-help h2{
+    text-align: center;
+}
