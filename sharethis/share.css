@@ -1,0 +1,584 @@
+#share-this-left {
+    font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    backface-visibility: hidden;
+    display: block;
+    position: fixed;
+    opacity: 1;
+    text-align: left;
+    top: 160px;
+    z-index: 94034;
+}
+#share-this-left.share-left {
+    left: 0px;
+}
+#share-this-left.share-hidden.share-left {
+    left: -48px;
+}
+#share-this-left.share-hidden {
+    width: 96px;
+}
+#share-this-left > div {
+    clear: left;
+    float: left;
+}
+#share-this-left .share-btn {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 48px;
+    line-height: 24px;
+    margin-bottom: 0;
+    opacity: 1;
+    overflow: hidden;
+    padding: 12px;
+    position: relative;
+    text-align: left;
+    top: 0;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 48px;
+}
+#share-this-left .share-btn.share-first {
+    border-top: none;
+    border-top-right-radius: 4px;
+}
+#share-this-left .share-btn.share-last {
+    border-bottom: none;
+    border-bottom-right-radius: 4px;
+}
+#share-this-left .share-btn > svg {
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    height: 24px;
+    margin-left: 0;
+    vertical-align: top;
+    width: 24px;
+}
+#share-this-left .share-btn > img {
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    height: 24px;
+    margin-left: 0;
+    vertical-align: top;
+    width: 24px;
+}
+#share-this-left .share-btn > span {
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    left: -35px;
+    letter-spacing: 0.5px;
+    opacity: 0;
+    padding: 0 6px;
+    position: relative;
+    vertical-align: top;
+    filter: alpha(opacity=0);
+}
+#share-this-left .share-btn.share-hide-label > span {
+    display: none !important;
+}
+#share-this-left .share-total {
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    background: #fff;
+    color: #555;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 0;
+    min-height: 34px;
+    max-width: 80px;
+    opacity: 1;
+    padding: 4px 0;
+    text-align: center;
+    width: 48px;
+}
+#share-this-left .share-total.share-hidden {
+    display: none;
+}
+#share-this-left .share-total > span {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0;
+}
+#share-this-left .share-total > span.share-shares {
+    font-size: 11px;
+    line-height: 11px;
+}
+#share-this-left .share-toggle {
+    left: -48px;
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    background: #ccc;
+    border-bottom-right-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 24px;
+    position: relative;
+    text-align: center;
+    width: 48px;
+}
+#share-this-left.share-hidden .share-toggle {
+    border-top-right-radius: 4px;
+}
+#share-this-left.share-left .share-toggle .share-left {
+    display: inline-block;
+}
+#share-this-left.share-left.share-hidden .share-toggle .share-left {
+    display: none;
+}
+#share-this-left.share-left .share-toggle .share-right {
+    display: none;
+}
+#share-this-left.share-left.share-hidden .share-toggle .share-right {
+    display: inline-block;
+}#share-this-left:hover .share-toggle {
+     left: 0;
+ }
+#share-this-left.share-hidden:hover .share-toggle {
+    left: 48px;
+}
+#share-this-left.share-toggleable:hover .share-btn.share-last {
+    border-bottom-right-radius: 0;
+}
+#share-this-left.share-toggleable:hover .share-btn.share-last:hover {
+    border-bottom-right-radius: 4px;
+}
+#share-this-left .share-btn:hover {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#share-this-left.share-has-labels .share-btn:hover {
+    width: 120px;
+}
+#share-this-left:not(.share-has-labels) .share-btn:hover {
+    width: 62px;
+}
+#share-this-left .share-btn.share-hide-label:hover {
+    width: 62px;
+}
+#share-this-left .share-btn:hover > svg {
+    margin-left: 5px;
+}
+#share-this-left .share-btn:hover > img {
+    margin-left: 5px;
+}
+#share-this-left .share-btn:hover > span {
+    opacity: 1;
+    display: inline-block;
+    left: 0;
+    filter: alpha(opacity=100);
+}
+@media (max-width: 1024px) {
+    #share-this-left .share-btn:hover > svg {
+        margin-left: 0;
+    }
+    #share-this-left .share-btn:hover > span {
+        display: none;
+    }
+}@media (max-width: 1024px) {
+    #share-this-left {
+        bottom: 0;
+        display: flex;
+        left: 0;
+        right: 0;
+        top: auto;
+        width: 100%;
+    }
+    #share-this-left.share-hidden {
+        bottom: -48px;
+        width: 100%;
+    }
+    #share-this-left.share-hidden.share-left {
+        left: 0;
+    }
+    #share-this-left.share-hidden.share-right {
+        right: 0;
+    }
+    #share-this-left > div {
+        -moz-flex: 1;
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        clear: none;
+        flex: 1;
+        float: none;
+    }
+    #share-this-left .share-total {
+        background: #fff;
+        padding: 6px 8px;
+    }
+    #share-this-left .share-btn {
+        -moz-border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        border-radius: 0 !important;
+        text-align: center;
+        width: auto;
+    }
+    #share-this-left .share-btn > span {
+        display: none;
+    }
+    #share-this-left .share-toggle {
+        display: none;
+    }body { padding-bottom: 48px; }
+}#share-this-left .share-btn[data-network='facebook'] {
+     background-color: #4267B2;
+ }
+#share-this-left .share-btn[data-network='facebook'] svg {
+    fill: #fff;
+}
+#share-this-left .share-btn[data-network='facebook'] > span {
+    color: #fff;
+}
+#share-this-left .share-btn[data-network='twitter'] {
+    background-color: #55acee;
+}
+#share-this-left .share-btn[data-network='twitter'] svg {
+    fill: #fff;
+}
+#share-this-left .share-btn[data-network='twitter'] > span {
+    color: #fff;
+}
+#share-this-left .share-btn[data-network='pinterest'] {
+    background-color: #CB2027;
+}
+#share-this-left .share-btn[data-network='pinterest'] svg {
+    fill: #fff;
+}
+#share-this-left .share-btn[data-network='pinterest'] > span {
+    color: #fff;
+}
+#share-this-left .share-btn[data-network='email'] {
+    background-color: #7d7d7d;
+}
+#share-this-left .share-btn[data-network='email'] svg {
+    fill: #fff;
+}
+#share-this-left .share-btn[data-network='email'] > span {
+    color: #fff;
+}
+#share-this-left .share-btn[data-network='sharethis'] {
+    background-color: #95D03A;
+}
+#share-this-left .share-btn[data-network='sharethis'] svg {
+    fill: #fff;
+}
+#share-this-left .share-btn[data-network='sharethis'] > span {
+    color: #fff;
+}
+body.share-body-no-scroll {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+#share-this-backdrop {
+    font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+#share-this-backdrop.share-hidden {
+    opacity: 0;
+    top: 100%;
+}
+#share-this-backdrop .share-backdrop {
+    background: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+#share-this-backdrop .share-btns {
+    bottom: 56px;
+    left: 0;
+    margin: 100px auto 0;
+    max-width: 98%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 10px;
+    z-index: 20;
+    overflow-y: auto;
+}
+#share-this-backdrop .share-logo {
+    background: #4c4c4c;
+    bottom: 0;
+    padding: 24px 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 30;
+}
+#share-this-backdrop .share-close {
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #999;
+    bottom: 28px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 36px;
+    height: 56px;
+    line-height: 28px;
+    padding: 8px;
+    position: absolute;
+    right: 14px;
+    width: 56px;
+    z-index: 40;
+}
+#share-this-backdrop .share-close > img {
+    height: 40px;
+    width: 40px;
+}
+#share-this-backdrop .share-btn {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 30px;
+    margin: 4px;
+    opacity: 1;
+    overflow: hidden;
+    padding: 8px 12px;
+    position: relative;
+    text-align: left;
+    top: 0;
+    vertical-align: top;
+    width: 148px;
+}
+#share-this-backdrop .share-btn::before {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+    background: #fff;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#share-this-backdrop .share-btn:hover::before {
+    opacity: .2;
+}
+#share-this-backdrop .share-btn > svg {
+    display: inline-block;
+    height: 20px;
+    margin-top: 6px;
+    vertical-align: top;
+    width: 20px;
+}
+#share-this-backdrop .share-btn > img {
+    display: inline-block;
+    height: 20px;
+    margin-top: 6px;
+    vertical-align: top;
+    width: 20px;
+}
+#share-this-backdrop .share-btn > span {
+    display: inline-block;
+    letter-spacing: 0.5px;
+    text-align: center;
+    vertical-align: top;
+    width: 96px;
+}
+@media(max-width: 1200px) {
+    #share-this-backdrop .share-btns {
+        margin-top: 50px;
+    }
+    #share-this-backdrop .share-btn[data-network='facebook']{
+        display: none;
+    }
+}
+@media(max-width: 800px) {
+    #share-this-backdrop .share-btns {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 32px 10px 50px;
+    }
+    #share-this-backdrop .share-btn {
+        width: 130px;
+    }
+    #share-this-backdrop .share-btn > span {
+        width: 74px;
+    }
+}#share-this-backdrop .share-btn[data-network='blogger'] {
+     background-color: #ff8000;
+ }
+#share-this-backdrop .share-btn[data-network='buffer'] {
+    background-color: #323B43;
+}
+#share-this-backdrop .share-btn[data-network='delicious'] {
+    background-color: #205cc0;
+}
+#share-this-backdrop .share-btn[data-network='diaspora'] {
+    background-color: #000000;
+}
+#share-this-backdrop .share-btn[data-network='digg'] {
+    background-color: #262626;
+}
+#share-this-backdrop .share-btn[data-network='douban'] {
+    background-color: #2E963D;
+}
+#share-this-backdrop .share-btn[data-network='email'] {
+    background-color: #7d7d7d;
+}
+#share-this-backdrop .share-btn[data-network='evernote'] {
+    background-color: #5BA525;
+}
+#share-this-backdrop .share-btn[data-network='facebook'] {
+    background-color: #4267B2;
+}
+#share-this-backdrop .share-btn[data-network='flipboard'] {
+    background-color: #e12828;
+}
+#share-this-backdrop .share-btn[data-network='getpocket'] {
+    background-color: #ef4056;
+}
+#share-this-backdrop .share-btn[data-network='github'] {
+    background-color: #333333;
+}
+#share-this-backdrop .share-btn[data-network='gmail'] {
+    background-color: #D44638;
+}
+#share-this-backdrop .share-btn[data-network='googlebookmarks'] {
+    background-color: #4285F4;
+}
+#share-this-backdrop .share-btn[data-network='hackernews'] {
+    background-color: #ff4000;
+}
+#share-this-backdrop .share-btn[data-network='instapaper'] {
+    background-color: #000000;
+}
+#share-this-backdrop .share-btn[data-network='line'] {
+    background-color: #00c300;
+}
+#share-this-backdrop .share-btn[data-network='linkedin'] {
+    background-color: #0077b5;
+}
+#share-this-backdrop .share-btn[data-network='livejournal'] {
+    background-color: #00b0ea;
+}
+#share-this-backdrop .share-btn[data-network='mailru'] {
+    background-color: #168de2;
+}
+#share-this-backdrop .share-btn[data-network='medium'] {
+    background-color: #333333;
+}
+#share-this-backdrop .share-btn[data-network='meneame'] {
+    background-color: #ff6400;
+}
+#share-this-backdrop .share-btn[data-network='messenger'] {
+    background-color: #448AFF;
+}
+#share-this-backdrop .share-btn[data-network='odnoklassniki'] {
+    background-color: #d7772d;
+}
+#share-this-backdrop .share-btn[data-network='pinterest'] {
+    background-color: #CB2027;
+}
+#share-this-backdrop .share-btn[data-network='print'] {
+    background-color: #222222;
+}
+#share-this-backdrop .share-btn[data-network='quora'] {
+    background-color: #a62100;
+}
+#share-this-backdrop .share-btn[data-network='qzone'] {
+    background-color: #F1C40F;
+}
+#share-this-backdrop .share-btn[data-network='reddit'] {
+    background-color: #ff4500;
+}
+#share-this-backdrop .share-btn[data-network='refind'] {
+    background-color: #4286f4;
+}
+#share-this-backdrop .share-btn[data-network='renren'] {
+    background-color: #005baa;
+}
+#share-this-backdrop .share-btn[data-network='sharethis'] {
+    background-color: #95D03A;
+}
+#share-this-backdrop .share-btn[data-network='skype'] {
+    background-color: #00aff0;
+}
+#share-this-backdrop .share-btn[data-network='sms'] {
+    background-color: #ffbd00;
+}
+#share-this-backdrop .share-btn[data-network='snapchat'] {
+    background-color: #fffc00;
+}
+#share-this-backdrop .share-btn[data-network='soundcloud'] {
+    background-color: #ff8800;
+}
+#share-this-backdrop .share-btn[data-network='spotify'] {
+    background-color: #1ED760;
+}
+#share-this-backdrop .share-btn[data-network='surfingbird'] {
+    background-color: #6dd3ff;
+}
+#share-this-backdrop .share-btn[data-network='telegram'] {
+    background-color: #0088cc;
+}
+#share-this-backdrop .share-btn[data-network='tumblr'] {
+    background-color: #32506d;
+}
+#share-this-backdrop .share-btn[data-network='twitch'] {
+    background-color: #6441A4;
+}
+#share-this-backdrop .share-btn[data-network='twitter'] {
+    background-color: #55acee;
+}
+#share-this-backdrop .share-btn[data-network='vk'] {
+    background-color: #4c6c91;
+}
+#share-this-backdrop .share-btn[data-network='wechat'] {
+    background-color: #4EC034;
+}
+#share-this-backdrop .share-btn[data-network='weibo'] {
+    background-color: #ff9933;
+}
+#share-this-backdrop .share-btn[data-network='whatsapp'] {
+    background-color: #25d366;
+}
+#share-this-backdrop .share-btn[data-network='wordpress'] {
+    background-color: #21759b;
+}
+#share-this-backdrop .share-btn[data-network='xing'] {
+    background-color: #1a7576;
+}
+#share-this-backdrop .share-btn[data-network='yahoomail'] {
+    background-color: #720e9e;
+}
+#share-this-backdrop .share-btn[data-network='yelp'] {
+    background-color: #d32323;
+}
+#share-this-backdrop .share-btn[data-network='youtube'] {
+    background-color: #FF0000;
+}
